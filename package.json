@@ -5,9 +5,9 @@
   "main": "server.js",
   "dependencies": {
     "crypto": "^0.0.3",
-    "mongoose": "^4.0.8",
-    "mongoose-auto-increment": "^4.0.0",
     "jwt-simple": "^0.3.1",
+    "mongoose": "^4.0.0",
+    "mongoose-auto-increment": "^4.0.0",
     "mongoose-hidden": "^0.4.1",
     "node-uuid": "^1.4.3",
     "nodemon": "^1.7.0"
