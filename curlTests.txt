@@ -1,0 +1,16 @@
+//1. Register               POST curl -H "Content-Type: application/json" POST -d '{"emailaddress":"jochen@picanol.be", "password":"password"}' http://localhost:3000/register
+OUTPUT: {"message":"User succesfully registered."}
+//2. Call Public API        GET  curl -H "Accept: application/json" -H "Content-Type: application/json" GET http://localhost:3000/api/public/test
+OUTPUT: "Hello anonymous user
+//2. Call Restricted API    GET  curl -H "Accept: application/json" -H "Content-Type: application/json" GET http://localhost:3000/api/restricted/test
+OUTPUT {"succes":false,"message":"No Token Provided."}
+//3. Login Wrong Creds      POST curl -H "Content-Type: application/json" POST -d '{"emailaddress":"jochen@picanol.be", "password":"password2"}' http://localhost:3000/login
+OUTPUT: {"succes":false,"message":"Authentication Failed. Wrong Password."}
+//4. Login Wron Email:      POST curl -H "Content-Type: application/json" POST -d '{"emailaddress":"jochedddn@picanol.be", "password":"password2"}' http://localhost:3000/login
+OUTPUT: {"succes":false,"message":"Authentication Failed. User not found."}
+//5. No creds                POST curl -H "Content-Type: application/json" POST -d '{}' http://localhost:3000/login
+OUTPUT: {"succes":false,"message":"Authentication Failed. Invalid e-mailaddres or password."}
+//4. Login Correct Creds    POST curl -H "Content-Type: application/json" POST -d '{"emailaddress":"jochen@picanol.be", "password":"password"}' http://localhost:3000/login
+OUTPUT: {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0NDM2MjQwNTc1NzksImVtYWlsYWRkcmVzcyI6ImpvY2hlbkBwaWNhbm9sLmJlIn0.4e-pR7XCIYWBYkZU3DYU_XvH8mP1P9dKxQnbe4Y2ioA","expires":1443624057579,"user":{"_id":"5602b86c7d7af05b6045dbfe","password":"3875b492799402a50f442931402744da0e2595ff0fe795d52d057658fbc62173","emailaddress":"jochen@picanol.be","__v":0,"salt":"2d58bb20-6200-11e5-a7db-cde9343e0110","role":"Guest"}}
+//5. Call Restricted API    GET  curl -H "Accept: application/json" -H "Content-Type: application/json" GET http://localhost:3000/api/restricted/test?access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0NDM2MjQwNTc1NzksImVtYWlsYWRkcmVzcyI6ImpvY2hlbkBwaWNhbm9sLmJlIn0.4e-pR7XCIYWBYkZU3DYU_XvH8mP1P9dKxQnbe4Y2ioA
+{"message":"Hello authenticated userjochen@picanol.be"}

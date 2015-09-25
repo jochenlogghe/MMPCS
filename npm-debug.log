@@ -1,0 +1,876 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'method-override',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json teccomcrm@0.0.1 No repository field.
+5 warn package.json teccomcrm@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'method-override', null ]
+8 verbose cache add name=undefined spec="method-override" args=["method-override",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'method-override',
+9 verbose parsed url   path: 'method-override',
+9 verbose parsed url   href: 'method-override' }
+10 silly lockFile 0b00fa9d-method-override method-override
+11 verbose lock method-override /home/ubuntu/.npm/0b00fa9d-method-override.lock
+12 silly lockFile 0b00fa9d-method-override method-override
+13 silly lockFile 0b00fa9d-method-override method-override
+14 verbose addNamed [ 'method-override', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile dd70539b-method-override method-override@
+17 verbose lock method-override@ /home/ubuntu/.npm/dd70539b-method-override.lock
+18 silly addNameRange { name: 'method-override', range: '*', hasData: false }
+19 verbose request where is /method-override
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 3684c6a2b4f72df6
+22 verbose url raw /method-override
+23 verbose url resolving [ 'https://registry.npmjs.org/', './method-override' ]
+24 verbose url resolved https://registry.npmjs.org/method-override
+25 verbose request where is https://registry.npmjs.org/method-override
+26 info trying registry request attempt 1 at 14:49:14
+27 http GET https://registry.npmjs.org/method-override
+28 http 200 https://registry.npmjs.org/method-override
+29 silly registry.get cb [ 200,
+29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"1VFHHIMDVFPTSWF3SBRFOTFS5"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '35715',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Fri, 18 Sep 2015 14:49:14 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '7',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-fra1236-FRA',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '1',
+29 silly registry.get     'x-timer': 'S1442587754.819557,VS0,VE0',
+29 silly registry.get     vary: 'Accept' } ]
+30 silly addNameRange number 2 { name: 'method-override', range: '*', hasData: true }
+31 silly addNameRange versions [ 'method-override',
+31 silly addNameRange   [ '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '2.0.1',
+31 silly addNameRange     '2.0.2',
+31 silly addNameRange     '2.1.0',
+31 silly addNameRange     '2.1.1',
+31 silly addNameRange     '2.1.2',
+31 silly addNameRange     '2.1.3',
+31 silly addNameRange     '2.2.0',
+31 silly addNameRange     '2.3.0',
+31 silly addNameRange     '2.3.1',
+31 silly addNameRange     '2.3.2',
+31 silly addNameRange     '2.3.3',
+31 silly addNameRange     '2.3.4',
+31 silly addNameRange     '2.3.5' ] ]
+32 verbose addNamed [ 'method-override', '2.3.5' ]
+33 verbose addNamed [ '2.3.5', '2.3.5' ]
+34 silly lockFile f87bcb61-method-override-2-3-5 method-override@2.3.5
+35 verbose lock method-override@2.3.5 /home/ubuntu/.npm/f87bcb61-method-override-2-3-5.lock
+36 silly lockFile b2b3ee92-erride-method-override-2-3-5-tgz https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz
+37 verbose lock https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz /home/ubuntu/.npm/b2b3ee92-erride-method-override-2-3-5-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz',
+38 verbose addRemoteTarball   '2cd5cdbff00c3673d7ae345119a812a5d95b8c8e' ]
+39 info retry fetch attempt 1 at 14:49:14
+40 verbose fetch to= /tmp/npm-32268-L7HBFPG4/registry.npmjs.org/method-override/-/method-override-2.3.5.tgz
+41 http GET https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz
+42 http 200 https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz
+43 silly lockFile b2b3ee92-erride-method-override-2-3-5-tgz https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz
+44 silly lockFile b2b3ee92-erride-method-override-2-3-5-tgz https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz
+45 silly lockFile f87bcb61-method-override-2-3-5 method-override@2.3.5
+46 silly lockFile f87bcb61-method-override-2-3-5 method-override@2.3.5
+47 silly lockFile dd70539b-method-override method-override@
+48 silly lockFile dd70539b-method-override method-override@
+49 silly resolved [ { name: 'method-override',
+49 silly resolved     description: 'Override HTTP verbs',
+49 silly resolved     version: '2.3.5',
+49 silly resolved     contributors: [ [Object], [Object] ],
+49 silly resolved     license: 'MIT',
+49 silly resolved     repository:
+49 silly resolved      { type: 'git',
+49 silly resolved        url: 'https://github.com/expressjs/method-override' },
+49 silly resolved     dependencies:
+49 silly resolved      { debug: '~2.2.0',
+49 silly resolved        methods: '~1.1.1',
+49 silly resolved        parseurl: '~1.3.0',
+49 silly resolved        vary: '~1.0.1' },
+49 silly resolved     devDependencies: { istanbul: '0.3.17', mocha: '2.2.5', supertest: '1.0.1' },
+49 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+49 silly resolved     engines: { node: '>= 0.8.0' },
+49 silly resolved     scripts:
+49 silly resolved      { test: 'mocha --check-leaks --reporter spec --bail test/',
+49 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/',
+49 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/' },
+49 silly resolved     gitHead: '367129dbe18743bcaae8a9300b90621e51825e70',
+49 silly resolved     bugs: { url: 'https://github.com/expressjs/method-override/issues' },
+49 silly resolved     homepage: 'https://github.com/expressjs/method-override',
+49 silly resolved     _id: 'method-override@2.3.5',
+49 silly resolved     _shasum: '2cd5cdbff00c3673d7ae345119a812a5d95b8c8e',
+49 silly resolved     _from: 'method-override@',
+49 silly resolved     _npmVersion: '1.4.28',
+49 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+49 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+49 silly resolved     dist:
+49 silly resolved      { shasum: '2cd5cdbff00c3673d7ae345119a812a5d95b8c8e',
+49 silly resolved        tarball: 'http://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz' },
+49 silly resolved     directories: {},
+49 silly resolved     _resolved: 'https://registry.npmjs.org/method-override/-/method-override-2.3.5.tgz' } ]
+50 info install method-override@2.3.5 into /home/ubuntu/workspace/server
+51 info installOne method-override@2.3.5
+52 verbose node_modules/method-override unbuild
+53 verbose tar unpack /home/ubuntu/.npm/method-override/2.3.5/package.tgz
+54 silly lockFile d5539a62-ver-node-modules-method-override tar:///home/ubuntu/workspace/server/node_modules/method-override
+55 verbose lock tar:///home/ubuntu/workspace/server/node_modules/method-override /home/ubuntu/.npm/d5539a62-ver-node-modules-method-override.lock
+56 silly lockFile 388179ec-ethod-override-2-3-5-package-tgz tar:///home/ubuntu/.npm/method-override/2.3.5/package.tgz
+57 verbose lock tar:///home/ubuntu/.npm/method-override/2.3.5/package.tgz /home/ubuntu/.npm/388179ec-ethod-override-2-3-5-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+63 silly gunzTarPerm extractEntry LICENSE
+64 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+65 silly gunzTarPerm extractEntry index.js
+66 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry HISTORY.md
+68 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+69 silly lockFile d5539a62-ver-node-modules-method-override tar:///home/ubuntu/workspace/server/node_modules/method-override
+70 silly lockFile d5539a62-ver-node-modules-method-override tar:///home/ubuntu/workspace/server/node_modules/method-override
+71 silly lockFile 388179ec-ethod-override-2-3-5-package-tgz tar:///home/ubuntu/.npm/method-override/2.3.5/package.tgz
+72 silly lockFile 388179ec-ethod-override-2-3-5-package-tgz tar:///home/ubuntu/.npm/method-override/2.3.5/package.tgz
+73 info preinstall method-override@2.3.5
+74 verbose readDependencies using package.json deps
+75 verbose readDependencies using package.json deps
+76 verbose cache add [ 'debug@~2.2.0', null ]
+77 verbose cache add name=undefined spec="debug@~2.2.0" args=["debug@~2.2.0",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'debug@~2.2.0',
+78 verbose parsed url   path: 'debug@~2.2.0',
+78 verbose parsed url   href: 'debug@~2.2.0' }
+79 verbose cache add [ 'methods@~1.1.1', null ]
+80 verbose cache add name=undefined spec="methods@~1.1.1" args=["methods@~1.1.1",null]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'methods@~1.1.1',
+81 verbose parsed url   path: 'methods@~1.1.1',
+81 verbose parsed url   href: 'methods@~1.1.1' }
+82 verbose cache add name="debug" spec="~2.2.0" args=["debug","~2.2.0"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '~2.2.0',
+83 verbose parsed url   path: '~2.2.0',
+83 verbose parsed url   href: '~2.2.0' }
+84 verbose addNamed [ 'debug', '~2.2.0' ]
+85 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+86 silly lockFile 7986b842-debug-2-2-0 debug@~2.2.0
+87 verbose lock debug@~2.2.0 /home/ubuntu/.npm/7986b842-debug-2-2-0.lock
+88 verbose cache add name="methods" spec="~1.1.1" args=["methods","~1.1.1"]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '~1.1.1',
+89 verbose parsed url   path: '~1.1.1',
+89 verbose parsed url   href: '~1.1.1' }
+90 verbose addNamed [ 'methods', '~1.1.1' ]
+91 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+92 silly lockFile 8f4b0360-methods-1-1-1 methods@~1.1.1
+93 verbose lock methods@~1.1.1 /home/ubuntu/.npm/8f4b0360-methods-1-1-1.lock
+94 verbose cache add [ 'parseurl@~1.3.0', null ]
+95 verbose cache add name=undefined spec="parseurl@~1.3.0" args=["parseurl@~1.3.0",null]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: 'parseurl@~1.3.0',
+96 verbose parsed url   path: 'parseurl@~1.3.0',
+96 verbose parsed url   href: 'parseurl@~1.3.0' }
+97 verbose cache add [ 'vary@~1.0.1', null ]
+98 verbose cache add name=undefined spec="vary@~1.0.1" args=["vary@~1.0.1",null]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: 'vary@~1.0.1',
+99 verbose parsed url   path: 'vary@~1.0.1',
+99 verbose parsed url   href: 'vary@~1.0.1' }
+100 verbose cache add name="parseurl" spec="~1.3.0" args=["parseurl","~1.3.0"]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '~1.3.0',
+101 verbose parsed url   path: '~1.3.0',
+101 verbose parsed url   href: '~1.3.0' }
+102 verbose addNamed [ 'parseurl', '~1.3.0' ]
+103 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+104 silly lockFile 24650040-parseurl-1-3-0 parseurl@~1.3.0
+105 verbose lock parseurl@~1.3.0 /home/ubuntu/.npm/24650040-parseurl-1-3-0.lock
+106 silly addNameRange { name: 'debug', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
+107 silly addNameRange { name: 'methods', range: '>=1.1.1-0 <1.2.0-0', hasData: false }
+108 verbose cache add name="vary" spec="~1.0.1" args=["vary","~1.0.1"]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '~1.0.1',
+109 verbose parsed url   path: '~1.0.1',
+109 verbose parsed url   href: '~1.0.1' }
+110 verbose addNamed [ 'vary', '~1.0.1' ]
+111 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+112 silly lockFile 15c4ac03-vary-1-0-1 vary@~1.0.1
+113 verbose lock vary@~1.0.1 /home/ubuntu/.npm/15c4ac03-vary-1-0-1.lock
+114 silly addNameRange { name: 'parseurl', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+115 silly addNameRange { name: 'vary', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+116 verbose request where is /debug
+117 verbose request registry https://registry.npmjs.org/
+118 verbose url raw /debug
+119 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+120 verbose url resolved https://registry.npmjs.org/debug
+121 verbose request where is https://registry.npmjs.org/debug
+122 info trying registry request attempt 1 at 14:49:14
+123 verbose etag "CGEO0KENHC40PCA5GCDAFU44X"
+124 http GET https://registry.npmjs.org/debug
+125 verbose request where is /methods
+126 verbose request registry https://registry.npmjs.org/
+127 verbose url raw /methods
+128 verbose url resolving [ 'https://registry.npmjs.org/', './methods' ]
+129 verbose url resolved https://registry.npmjs.org/methods
+130 verbose request where is https://registry.npmjs.org/methods
+131 info trying registry request attempt 1 at 14:49:14
+132 verbose etag "39YNLFIPTRJ08GU0ILTBTAH03"
+133 http GET https://registry.npmjs.org/methods
+134 verbose request where is /parseurl
+135 verbose request registry https://registry.npmjs.org/
+136 verbose url raw /parseurl
+137 verbose url resolving [ 'https://registry.npmjs.org/', './parseurl' ]
+138 verbose url resolved https://registry.npmjs.org/parseurl
+139 verbose request where is https://registry.npmjs.org/parseurl
+140 info trying registry request attempt 1 at 14:49:14
+141 verbose etag "AZ14E10FS2KGEEAMHB22NHR02"
+142 http GET https://registry.npmjs.org/parseurl
+143 verbose request where is /vary
+144 verbose request registry https://registry.npmjs.org/
+145 verbose url raw /vary
+146 verbose url resolving [ 'https://registry.npmjs.org/', './vary' ]
+147 verbose url resolved https://registry.npmjs.org/vary
+148 verbose request where is https://registry.npmjs.org/vary
+149 info trying registry request attempt 1 at 14:49:14
+150 verbose etag "A1136X7XRR9FXGB4NQU90WJTQ"
+151 http GET https://registry.npmjs.org/vary
+152 http 304 https://registry.npmjs.org/methods
+153 silly registry.get cb [ 304,
+153 silly registry.get   { date: 'Fri, 18 Sep 2015 14:49:15 GMT',
+153 silly registry.get     via: '1.1 varnish',
+153 silly registry.get     'cache-control': 'max-age=60',
+153 silly registry.get     etag: '"39YNLFIPTRJ08GU0ILTBTAH03"',
+153 silly registry.get     age: '11',
+153 silly registry.get     connection: 'keep-alive',
+153 silly registry.get     'x-served-by': 'cache-lhr6331-LHR',
+153 silly registry.get     'x-cache': 'HIT',
+153 silly registry.get     'x-cache-hits': '1',
+153 silly registry.get     'x-timer': 'S1442587755.052566,VS0,VE1',
+153 silly registry.get     vary: 'Accept' } ]
+154 verbose etag https://registry.npmjs.org/methods from cache
+155 silly addNameRange number 2 { name: 'methods', range: '>=1.1.1-0 <1.2.0-0', hasData: true }
+156 silly addNameRange versions [ 'methods',
+156 silly addNameRange   [ '0.0.1', '0.1.0', '1.0.0', '1.0.1', '1.1.0', '1.1.1' ] ]
+157 verbose addNamed [ 'methods', '1.1.1' ]
+158 verbose addNamed [ '1.1.1', '1.1.1' ]
+159 silly lockFile 30aff2af-methods-1-1-1 methods@1.1.1
+160 verbose lock methods@1.1.1 /home/ubuntu/.npm/30aff2af-methods-1-1-1.lock
+161 http 304 https://registry.npmjs.org/debug
+162 silly registry.get cb [ 304,
+162 silly registry.get   { date: 'Fri, 18 Sep 2015 14:49:15 GMT',
+162 silly registry.get     via: '1.1 varnish',
+162 silly registry.get     'cache-control': 'max-age=60',
+162 silly registry.get     etag: '"CGEO0KENHC40PCA5GCDAFU44X"',
+162 silly registry.get     age: '51',
+162 silly registry.get     connection: 'keep-alive',
+162 silly registry.get     'x-served-by': 'cache-lhr6325-LHR',
+162 silly registry.get     'x-cache': 'HIT',
+162 silly registry.get     'x-cache-hits': '10',
+162 silly registry.get     'x-timer': 'S1442587755.059505,VS0,VE0',
+162 silly registry.get     vary: 'Accept' } ]
+163 verbose etag https://registry.npmjs.org/debug from cache
+164 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
+165 silly addNameRange versions [ 'debug',
+165 silly addNameRange   [ '0.0.1',
+165 silly addNameRange     '0.1.0',
+165 silly addNameRange     '0.2.0',
+165 silly addNameRange     '0.3.0',
+165 silly addNameRange     '0.4.0',
+165 silly addNameRange     '0.4.1',
+165 silly addNameRange     '0.5.0',
+165 silly addNameRange     '0.6.0',
+165 silly addNameRange     '0.7.0',
+165 silly addNameRange     '0.7.1',
+165 silly addNameRange     '0.7.2',
+165 silly addNameRange     '0.7.3',
+165 silly addNameRange     '0.7.4',
+165 silly addNameRange     '0.8.0',
+165 silly addNameRange     '0.8.1',
+165 silly addNameRange     '1.0.0',
+165 silly addNameRange     '1.0.1',
+165 silly addNameRange     '1.0.2',
+165 silly addNameRange     '1.0.3',
+165 silly addNameRange     '1.0.4',
+165 silly addNameRange     '2.0.0',
+165 silly addNameRange     '2.1.0',
+165 silly addNameRange     '2.1.1',
+165 silly addNameRange     '2.1.2',
+165 silly addNameRange     '2.1.3',
+165 silly addNameRange     '2.2.0' ] ]
+166 verbose addNamed [ 'debug', '2.2.0' ]
+167 verbose addNamed [ '2.2.0', '2.2.0' ]
+168 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+169 verbose lock debug@2.2.0 /home/ubuntu/.npm/82f99b48-debug-2-2-0.lock
+170 silly lockFile 30aff2af-methods-1-1-1 methods@1.1.1
+171 silly lockFile 30aff2af-methods-1-1-1 methods@1.1.1
+172 http 304 https://registry.npmjs.org/vary
+173 silly registry.get cb [ 304,
+173 silly registry.get   { date: 'Fri, 18 Sep 2015 14:49:15 GMT',
+173 silly registry.get     via: '1.1 varnish',
+173 silly registry.get     'cache-control': 'max-age=60',
+173 silly registry.get     etag: '"A1136X7XRR9FXGB4NQU90WJTQ"',
+173 silly registry.get     age: '34',
+173 silly registry.get     connection: 'keep-alive',
+173 silly registry.get     'x-served-by': 'cache-lhr6324-LHR',
+173 silly registry.get     'x-cache': 'HIT',
+173 silly registry.get     'x-cache-hits': '1',
+173 silly registry.get     'x-timer': 'S1442587755.068092,VS0,VE1',
+173 silly registry.get     vary: 'Accept' } ]
+174 verbose etag https://registry.npmjs.org/vary from cache
+175 silly lockFile 8f4b0360-methods-1-1-1 methods@~1.1.1
+176 silly lockFile 8f4b0360-methods-1-1-1 methods@~1.1.1
+177 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+178 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+179 silly lockFile 7986b842-debug-2-2-0 debug@~2.2.0
+180 silly lockFile 7986b842-debug-2-2-0 debug@~2.2.0
+181 silly addNameRange number 2 { name: 'vary', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+182 silly addNameRange versions [ 'vary', [ '0.0.0', '0.1.0', '1.0.0', '1.0.1' ] ]
+183 verbose addNamed [ 'vary', '1.0.1' ]
+184 verbose addNamed [ '1.0.1', '1.0.1' ]
+185 silly lockFile 5c54d3d3-vary-1-0-1 vary@1.0.1
+186 verbose lock vary@1.0.1 /home/ubuntu/.npm/5c54d3d3-vary-1-0-1.lock
+187 silly lockFile 5c54d3d3-vary-1-0-1 vary@1.0.1
+188 silly lockFile 5c54d3d3-vary-1-0-1 vary@1.0.1
+189 silly lockFile 15c4ac03-vary-1-0-1 vary@~1.0.1
+190 silly lockFile 15c4ac03-vary-1-0-1 vary@~1.0.1
+191 http 304 https://registry.npmjs.org/parseurl
+192 silly registry.get cb [ 304,
+192 silly registry.get   { date: 'Fri, 18 Sep 2015 14:49:15 GMT',
+192 silly registry.get     via: '1.1 varnish',
+192 silly registry.get     'cache-control': 'max-age=60',
+192 silly registry.get     etag: '"AZ14E10FS2KGEEAMHB22NHR02"',
+192 silly registry.get     age: '31',
+192 silly registry.get     connection: 'keep-alive',
+192 silly registry.get     'x-served-by': 'cache-ams4130-AMS',
+192 silly registry.get     'x-cache': 'HIT',
+192 silly registry.get     'x-cache-hits': '2',
+192 silly registry.get     'x-timer': 'S1442587755.082645,VS0,VE0',
+192 silly registry.get     vary: 'Accept' } ]
+193 verbose etag https://registry.npmjs.org/parseurl from cache
+194 silly addNameRange number 2 { name: 'parseurl', range: '>=1.3.0-0 <1.4.0-0', hasData: true }
+195 silly addNameRange versions [ 'parseurl',
+195 silly addNameRange   [ '1.0.0',
+195 silly addNameRange     '1.0.1',
+195 silly addNameRange     '1.1.0',
+195 silly addNameRange     '1.1.1',
+195 silly addNameRange     '1.1.2',
+195 silly addNameRange     '1.1.3',
+195 silly addNameRange     '1.2.0',
+195 silly addNameRange     '1.3.0' ] ]
+196 verbose addNamed [ 'parseurl', '1.3.0' ]
+197 verbose addNamed [ '1.3.0', '1.3.0' ]
+198 silly lockFile 7b3b7804-parseurl-1-3-0 parseurl@1.3.0
+199 verbose lock parseurl@1.3.0 /home/ubuntu/.npm/7b3b7804-parseurl-1-3-0.lock
+200 silly lockFile 7b3b7804-parseurl-1-3-0 parseurl@1.3.0
+201 silly lockFile 7b3b7804-parseurl-1-3-0 parseurl@1.3.0
+202 silly lockFile 24650040-parseurl-1-3-0 parseurl@~1.3.0
+203 silly lockFile 24650040-parseurl-1-3-0 parseurl@~1.3.0
+204 silly resolved [ { name: 'methods',
+204 silly resolved     description: 'HTTP methods that node supports',
+204 silly resolved     version: '1.1.1',
+204 silly resolved     contributors: [ [Object], [Object], [Object] ],
+204 silly resolved     license: 'MIT',
+204 silly resolved     repository: { type: 'git', url: 'https://github.com/jshttp/methods' },
+204 silly resolved     devDependencies: { istanbul: '0.3', mocha: '1' },
+204 silly resolved     files: [ 'index.js', 'HISTORY.md', 'LICENSE' ],
+204 silly resolved     engines: { node: '>= 0.6' },
+204 silly resolved     scripts:
+204 silly resolved      { test: 'mocha --reporter spec',
+204 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot',
+204 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot' },
+204 silly resolved     browser: { http: false },
+204 silly resolved     keywords: [ 'http', 'methods' ],
+204 silly resolved     gitHead: '6293c6b27c5fb963acf67a347af80ad2ebd7247f',
+204 silly resolved     bugs: { url: 'https://github.com/jshttp/methods/issues' },
+204 silly resolved     homepage: 'https://github.com/jshttp/methods',
+204 silly resolved     _id: 'methods@1.1.1',
+204 silly resolved     _shasum: '17ea6366066d00c58e375b8ec7dfd0453c89822a',
+204 silly resolved     _from: 'methods@~1.1.1',
+204 silly resolved     _npmVersion: '1.4.28',
+204 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+204 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: '17ea6366066d00c58e375b8ec7dfd0453c89822a',
+204 silly resolved        tarball: 'http://registry.npmjs.org/methods/-/methods-1.1.1.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/methods/-/methods-1.1.1.tgz',
+204 silly resolved     readme: 'ERROR: No README data found!' },
+204 silly resolved   { name: 'debug',
+204 silly resolved     version: '2.2.0',
+204 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+204 silly resolved     description: 'small debugging utility',
+204 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+204 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+204 silly resolved     contributors: [ [Object] ],
+204 silly resolved     license: 'MIT',
+204 silly resolved     dependencies: { ms: '0.7.1' },
+204 silly resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+204 silly resolved     main: './node.js',
+204 silly resolved     browser: './browser.js',
+204 silly resolved     component: { scripts: [Object] },
+204 silly resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+204 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+204 silly resolved     homepage: 'https://github.com/visionmedia/debug',
+204 silly resolved     _id: 'debug@2.2.0',
+204 silly resolved     scripts: {},
+204 silly resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+204 silly resolved     _from: 'debug@~2.2.0',
+204 silly resolved     _npmVersion: '2.7.4',
+204 silly resolved     _nodeVersion: '0.12.2',
+204 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+204 silly resolved     maintainers: [ [Object], [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+204 silly resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+204 silly resolved     readme: 'ERROR: No README data found!' },
+204 silly resolved   { name: 'vary',
+204 silly resolved     description: 'Manipulate the HTTP Vary header',
+204 silly resolved     version: '1.0.1',
+204 silly resolved     author:
+204 silly resolved      { name: 'Douglas Christopher Wilson',
+204 silly resolved        email: 'doug@somethingdoug.com' },
+204 silly resolved     license: 'MIT',
+204 silly resolved     keywords: [ 'http', 'res', 'vary' ],
+204 silly resolved     repository: { type: 'git', url: 'https://github.com/jshttp/vary' },
+204 silly resolved     devDependencies: { istanbul: '0.3.17', mocha: '2.2.5', supertest: '1.0.1' },
+204 silly resolved     files: [ 'HISTORY.md', 'LICENSE', 'README.md', 'index.js' ],
+204 silly resolved     engines: { node: '>= 0.8' },
+204 silly resolved     scripts:
+204 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+204 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+204 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+204 silly resolved     gitHead: '650282ff8e614731837040a23e10f51c20728392',
+204 silly resolved     bugs: { url: 'https://github.com/jshttp/vary/issues' },
+204 silly resolved     homepage: 'https://github.com/jshttp/vary',
+204 silly resolved     _id: 'vary@1.0.1',
+204 silly resolved     _shasum: '99e4981566a286118dfb2b817357df7993376d10',
+204 silly resolved     _from: 'vary@~1.0.1',
+204 silly resolved     _npmVersion: '1.4.28',
+204 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+204 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: '99e4981566a286118dfb2b817357df7993376d10',
+204 silly resolved        tarball: 'http://registry.npmjs.org/vary/-/vary-1.0.1.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/vary/-/vary-1.0.1.tgz',
+204 silly resolved     readme: 'ERROR: No README data found!' },
+204 silly resolved   { name: 'parseurl',
+204 silly resolved     description: 'parse a url with memoization',
+204 silly resolved     version: '1.3.0',
+204 silly resolved     author:
+204 silly resolved      { name: 'Jonathan Ong',
+204 silly resolved        email: 'me@jongleberry.com',
+204 silly resolved        url: 'http://jongleberry.com' },
+204 silly resolved     contributors: [ [Object] ],
+204 silly resolved     repository: { type: 'git', url: 'https://github.com/expressjs/parseurl' },
+204 silly resolved     license: 'MIT',
+204 silly resolved     devDependencies:
+204 silly resolved      { benchmark: '1.0.0',
+204 silly resolved        'beautify-benchmark': '0.2.4',
+204 silly resolved        'fast-url-parser': '~1.0.0',
+204 silly resolved        istanbul: '0.3.0',
+204 silly resolved        mocha: '~1.21.4' },
+204 silly resolved     scripts:
+204 silly resolved      { bench: 'node benchmark/index.js',
+204 silly resolved        test: 'mocha --check-leaks --bail --reporter spec test/',
+204 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/',
+204 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/' },
+204 silly resolved     gitHead: '03b7ccca240e2bef5df6c25797e99175d28fb2cb',
+204 silly resolved     bugs: { url: 'https://github.com/expressjs/parseurl/issues' },
+204 silly resolved     homepage: 'https://github.com/expressjs/parseurl',
+204 silly resolved     _id: 'parseurl@1.3.0',
+204 silly resolved     _shasum: 'b58046db4223e145afa76009e61bac87cc2281b3',
+204 silly resolved     _from: 'parseurl@~1.3.0',
+204 silly resolved     _npmVersion: '1.4.21',
+204 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+204 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+204 silly resolved     dist:
+204 silly resolved      { shasum: 'b58046db4223e145afa76009e61bac87cc2281b3',
+204 silly resolved        tarball: 'http://registry.npmjs.org/parseurl/-/parseurl-1.3.0.tgz' },
+204 silly resolved     directories: {},
+204 silly resolved     _resolved: 'https://registry.npmjs.org/parseurl/-/parseurl-1.3.0.tgz',
+204 silly resolved     readme: 'ERROR: No README data found!' } ]
+205 info install methods@1.1.1 into /home/ubuntu/workspace/server/node_modules/method-override
+206 info install debug@2.2.0 into /home/ubuntu/workspace/server/node_modules/method-override
+207 info install vary@1.0.1 into /home/ubuntu/workspace/server/node_modules/method-override
+208 info install parseurl@1.3.0 into /home/ubuntu/workspace/server/node_modules/method-override
+209 info installOne methods@1.1.1
+210 info installOne debug@2.2.0
+211 info installOne vary@1.0.1
+212 info installOne parseurl@1.3.0
+213 verbose node_modules/method-override/node_modules/methods unbuild
+214 verbose node_modules/method-override/node_modules/debug unbuild
+215 verbose node_modules/method-override/node_modules/vary unbuild
+216 verbose node_modules/method-override/node_modules/parseurl unbuild
+217 verbose tar unpack /home/ubuntu/.npm/methods/1.1.1/package.tgz
+218 silly lockFile a5643391-od-override-node-modules-methods tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/methods
+219 verbose lock tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/methods /home/ubuntu/.npm/a5643391-od-override-node-modules-methods.lock
+220 silly lockFile 92816492-tu-npm-methods-1-1-1-package-tgz tar:///home/ubuntu/.npm/methods/1.1.1/package.tgz
+221 verbose lock tar:///home/ubuntu/.npm/methods/1.1.1/package.tgz /home/ubuntu/.npm/92816492-tu-npm-methods-1-1-1-package-tgz.lock
+222 verbose tar unpack /home/ubuntu/.npm/debug/2.2.0/package.tgz
+223 silly lockFile d53a1931-thod-override-node-modules-debug tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug
+224 verbose lock tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug /home/ubuntu/.npm/d53a1931-thod-override-node-modules-debug.lock
+225 silly lockFile 3b72bc1e-untu-npm-debug-2-2-0-package-tgz tar:///home/ubuntu/.npm/debug/2.2.0/package.tgz
+226 verbose lock tar:///home/ubuntu/.npm/debug/2.2.0/package.tgz /home/ubuntu/.npm/3b72bc1e-untu-npm-debug-2-2-0-package-tgz.lock
+227 verbose tar unpack /home/ubuntu/.npm/vary/1.0.1/package.tgz
+228 silly lockFile aec670cd-ethod-override-node-modules-vary tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/vary
+229 verbose lock tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/vary /home/ubuntu/.npm/aec670cd-ethod-override-node-modules-vary.lock
+230 silly lockFile ded59e31-buntu-npm-vary-1-0-1-package-tgz tar:///home/ubuntu/.npm/vary/1.0.1/package.tgz
+231 verbose lock tar:///home/ubuntu/.npm/vary/1.0.1/package.tgz /home/ubuntu/.npm/ded59e31-buntu-npm-vary-1-0-1-package-tgz.lock
+232 verbose tar unpack /home/ubuntu/.npm/parseurl/1.3.0/package.tgz
+233 silly lockFile 7e19584b-d-override-node-modules-parseurl tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/parseurl
+234 verbose lock tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/parseurl /home/ubuntu/.npm/7e19584b-d-override-node-modules-parseurl.lock
+235 silly lockFile 8dc95614-u-npm-parseurl-1-3-0-package-tgz tar:///home/ubuntu/.npm/parseurl/1.3.0/package.tgz
+236 verbose lock tar:///home/ubuntu/.npm/parseurl/1.3.0/package.tgz /home/ubuntu/.npm/8dc95614-u-npm-parseurl-1-3-0-package-tgz.lock
+237 silly gunzTarPerm modes [ '755', '644' ]
+238 silly gunzTarPerm modes [ '755', '644' ]
+239 silly gunzTarPerm modes [ '755', '644' ]
+240 silly gunzTarPerm modes [ '755', '644' ]
+241 silly gunzTarPerm extractEntry package.json
+242 silly gunzTarPerm extractEntry .npmignore
+243 silly gunzTarPerm extractEntry node.js
+244 silly gunzTarPerm extractEntry package.json
+245 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+246 silly gunzTarPerm extractEntry package.json
+247 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+248 silly gunzTarPerm extractEntry README.md
+249 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+250 silly gunzTarPerm extractEntry LICENSE
+251 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+252 silly gunzTarPerm extractEntry package.json
+253 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+254 silly gunzTarPerm extractEntry README.md
+255 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+256 silly gunzTarPerm extractEntry LICENSE
+257 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+258 silly gunzTarPerm extractEntry debug.js
+259 silly gunzTarPerm extractEntry browser.js
+260 silly gunzTarPerm extractEntry .npmignore
+261 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+262 silly gunzTarPerm extractEntry README.md
+263 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+264 silly gunzTarPerm extractEntry index.js
+265 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry HISTORY.md
+267 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+268 silly gunzTarPerm extractEntry Readme.md
+269 silly gunzTarPerm extractEntry index.js
+270 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry HISTORY.md
+272 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+273 silly gunzTarPerm extractEntry LICENSE
+274 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+275 silly gunzTarPerm extractEntry index.js
+276 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry HISTORY.md
+278 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 420 ]
+279 silly gunzTarPerm extractEntry bower.json
+280 silly gunzTarPerm extractEntry .jshintrc
+281 silly gunzTarPerm extractEntry component.json
+282 silly gunzTarPerm extractEntry Makefile
+283 silly lockFile a5643391-od-override-node-modules-methods tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/methods
+284 silly lockFile a5643391-od-override-node-modules-methods tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/methods
+285 silly gunzTarPerm extractEntry History.md
+286 silly lockFile 92816492-tu-npm-methods-1-1-1-package-tgz tar:///home/ubuntu/.npm/methods/1.1.1/package.tgz
+287 silly lockFile 92816492-tu-npm-methods-1-1-1-package-tgz tar:///home/ubuntu/.npm/methods/1.1.1/package.tgz
+288 silly lockFile aec670cd-ethod-override-node-modules-vary tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/vary
+289 silly lockFile aec670cd-ethod-override-node-modules-vary tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/vary
+290 info preinstall methods@1.1.1
+291 silly lockFile ded59e31-buntu-npm-vary-1-0-1-package-tgz tar:///home/ubuntu/.npm/vary/1.0.1/package.tgz
+292 silly lockFile ded59e31-buntu-npm-vary-1-0-1-package-tgz tar:///home/ubuntu/.npm/vary/1.0.1/package.tgz
+293 verbose readDependencies using package.json deps
+294 verbose readDependencies using package.json deps
+295 silly resolved []
+296 verbose about to build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/methods
+297 info build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/methods
+298 verbose linkStuff [ false,
+298 verbose linkStuff   false,
+298 verbose linkStuff   false,
+298 verbose linkStuff   '/home/ubuntu/workspace/server/node_modules/method-override/node_modules' ]
+299 info linkStuff methods@1.1.1
+300 verbose linkBins methods@1.1.1
+301 verbose linkMans methods@1.1.1
+302 verbose rebuildBundles methods@1.1.1
+303 info preinstall vary@1.0.1
+304 info install methods@1.1.1
+305 info postinstall methods@1.1.1
+306 verbose readDependencies using package.json deps
+307 verbose readDependencies using package.json deps
+308 silly resolved []
+309 verbose about to build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/vary
+310 info build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/vary
+311 verbose linkStuff [ false,
+311 verbose linkStuff   false,
+311 verbose linkStuff   false,
+311 verbose linkStuff   '/home/ubuntu/workspace/server/node_modules/method-override/node_modules' ]
+312 info linkStuff vary@1.0.1
+313 verbose linkBins vary@1.0.1
+314 verbose linkMans vary@1.0.1
+315 verbose rebuildBundles vary@1.0.1
+316 info install vary@1.0.1
+317 info postinstall vary@1.0.1
+318 silly lockFile 7e19584b-d-override-node-modules-parseurl tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/parseurl
+319 silly lockFile 7e19584b-d-override-node-modules-parseurl tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/parseurl
+320 silly lockFile 8dc95614-u-npm-parseurl-1-3-0-package-tgz tar:///home/ubuntu/.npm/parseurl/1.3.0/package.tgz
+321 silly lockFile 8dc95614-u-npm-parseurl-1-3-0-package-tgz tar:///home/ubuntu/.npm/parseurl/1.3.0/package.tgz
+322 info preinstall parseurl@1.3.0
+323 verbose readDependencies using package.json deps
+324 verbose readDependencies using package.json deps
+325 silly resolved []
+326 verbose about to build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/parseurl
+327 info build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/parseurl
+328 verbose linkStuff [ false,
+328 verbose linkStuff   false,
+328 verbose linkStuff   false,
+328 verbose linkStuff   '/home/ubuntu/workspace/server/node_modules/method-override/node_modules' ]
+329 info linkStuff parseurl@1.3.0
+330 verbose linkBins parseurl@1.3.0
+331 verbose linkMans parseurl@1.3.0
+332 verbose rebuildBundles parseurl@1.3.0
+333 info install parseurl@1.3.0
+334 info postinstall parseurl@1.3.0
+335 silly lockFile d53a1931-thod-override-node-modules-debug tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug
+336 silly lockFile d53a1931-thod-override-node-modules-debug tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug
+337 silly lockFile 3b72bc1e-untu-npm-debug-2-2-0-package-tgz tar:///home/ubuntu/.npm/debug/2.2.0/package.tgz
+338 silly lockFile 3b72bc1e-untu-npm-debug-2-2-0-package-tgz tar:///home/ubuntu/.npm/debug/2.2.0/package.tgz
+339 info preinstall debug@2.2.0
+340 verbose readDependencies using package.json deps
+341 verbose readDependencies using package.json deps
+342 verbose cache add [ 'ms@0.7.1', null ]
+343 verbose cache add name=undefined spec="ms@0.7.1" args=["ms@0.7.1",null]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: 'ms@0.7.1',
+344 verbose parsed url   path: 'ms@0.7.1',
+344 verbose parsed url   href: 'ms@0.7.1' }
+345 verbose cache add name="ms" spec="0.7.1" args=["ms","0.7.1"]
+346 verbose parsed url { protocol: null,
+346 verbose parsed url   slashes: null,
+346 verbose parsed url   auth: null,
+346 verbose parsed url   host: null,
+346 verbose parsed url   port: null,
+346 verbose parsed url   hostname: null,
+346 verbose parsed url   hash: null,
+346 verbose parsed url   search: null,
+346 verbose parsed url   query: null,
+346 verbose parsed url   pathname: '0.7.1',
+346 verbose parsed url   path: '0.7.1',
+346 verbose parsed url   href: '0.7.1' }
+347 verbose addNamed [ 'ms', '0.7.1' ]
+348 verbose addNamed [ '0.7.1', '0.7.1' ]
+349 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+350 verbose lock ms@0.7.1 /home/ubuntu/.npm/3dba240c-ms-0-7-1.lock
+351 verbose request where is /ms
+352 verbose request registry https://registry.npmjs.org/
+353 verbose url raw /ms
+354 verbose url resolving [ 'https://registry.npmjs.org/', './ms' ]
+355 verbose url resolved https://registry.npmjs.org/ms
+356 verbose request where is https://registry.npmjs.org/ms
+357 info trying registry request attempt 1 at 14:49:15
+358 verbose etag "DUAQ0ETDNK1O3W1OBHV985ZJD"
+359 http GET https://registry.npmjs.org/ms
+360 http 304 https://registry.npmjs.org/ms
+361 silly registry.get cb [ 304,
+361 silly registry.get   { date: 'Fri, 18 Sep 2015 14:49:15 GMT',
+361 silly registry.get     via: '1.1 varnish',
+361 silly registry.get     'cache-control': 'max-age=60',
+361 silly registry.get     etag: '"DUAQ0ETDNK1O3W1OBHV985ZJD"',
+361 silly registry.get     age: '38',
+361 silly registry.get     connection: 'keep-alive',
+361 silly registry.get     'x-served-by': 'cache-fra1246-FRA',
+361 silly registry.get     'x-cache': 'HIT',
+361 silly registry.get     'x-cache-hits': '2',
+361 silly registry.get     'x-timer': 'S1442587755.200162,VS0,VE0',
+361 silly registry.get     vary: 'Accept' } ]
+362 verbose etag https://registry.npmjs.org/ms from cache
+363 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+364 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+365 silly resolved [ { name: 'ms',
+365 silly resolved     version: '0.7.1',
+365 silly resolved     description: 'Tiny ms conversion utility',
+365 silly resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+365 silly resolved     main: './index',
+365 silly resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+365 silly resolved     component: { scripts: [Object] },
+365 silly resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+365 silly resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+365 silly resolved     homepage: 'https://github.com/guille/ms.js',
+365 silly resolved     _id: 'ms@0.7.1',
+365 silly resolved     scripts: {},
+365 silly resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+365 silly resolved     _from: 'ms@0.7.1',
+365 silly resolved     _npmVersion: '2.7.5',
+365 silly resolved     _nodeVersion: '0.12.2',
+365 silly resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+365 silly resolved     maintainers: [ [Object] ],
+365 silly resolved     dist:
+365 silly resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+365 silly resolved        tarball: 'http://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+365 silly resolved     directories: {},
+365 silly resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+365 silly resolved     readme: 'ERROR: No README data found!' } ]
+366 info install ms@0.7.1 into /home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug
+367 info installOne ms@0.7.1
+368 verbose node_modules/method-override/node_modules/debug/node_modules/ms unbuild
+369 verbose tar unpack /home/ubuntu/.npm/ms/0.7.1/package.tgz
+370 silly lockFile d7cca999-de-modules-debug-node-modules-ms tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules/ms
+371 verbose lock tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules/ms /home/ubuntu/.npm/d7cca999-de-modules-debug-node-modules-ms.lock
+372 silly lockFile 6cbf0e8e--ubuntu-npm-ms-0-7-1-package-tgz tar:///home/ubuntu/.npm/ms/0.7.1/package.tgz
+373 verbose lock tar:///home/ubuntu/.npm/ms/0.7.1/package.tgz /home/ubuntu/.npm/6cbf0e8e--ubuntu-npm-ms-0-7-1-package-tgz.lock
+374 silly gunzTarPerm modes [ '755', '644' ]
+375 silly gunzTarPerm extractEntry package.json
+376 silly gunzTarPerm extractEntry .npmignore
+377 silly gunzTarPerm extractEntry README.md
+378 silly gunzTarPerm extractEntry LICENSE
+379 silly gunzTarPerm extractEntry index.js
+380 silly gunzTarPerm extractEntry History.md
+381 silly lockFile d7cca999-de-modules-debug-node-modules-ms tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules/ms
+382 silly lockFile d7cca999-de-modules-debug-node-modules-ms tar:///home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules/ms
+383 silly lockFile 6cbf0e8e--ubuntu-npm-ms-0-7-1-package-tgz tar:///home/ubuntu/.npm/ms/0.7.1/package.tgz
+384 silly lockFile 6cbf0e8e--ubuntu-npm-ms-0-7-1-package-tgz tar:///home/ubuntu/.npm/ms/0.7.1/package.tgz
+385 info preinstall ms@0.7.1
+386 verbose readDependencies using package.json deps
+387 verbose readDependencies using package.json deps
+388 silly resolved []
+389 verbose about to build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules/ms
+390 info build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules/ms
+391 verbose linkStuff [ false,
+391 verbose linkStuff   false,
+391 verbose linkStuff   false,
+391 verbose linkStuff   '/home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug/node_modules' ]
+392 info linkStuff ms@0.7.1
+393 verbose linkBins ms@0.7.1
+394 verbose linkMans ms@0.7.1
+395 verbose rebuildBundles ms@0.7.1
+396 info install ms@0.7.1
+397 info postinstall ms@0.7.1
+398 verbose about to build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug
+399 info build /home/ubuntu/workspace/server/node_modules/method-override/node_modules/debug
+400 verbose linkStuff [ false,
+400 verbose linkStuff   false,
+400 verbose linkStuff   false,
+400 verbose linkStuff   '/home/ubuntu/workspace/server/node_modules/method-override/node_modules' ]
+401 info linkStuff debug@2.2.0
+402 verbose linkBins debug@2.2.0
+403 verbose linkMans debug@2.2.0
+404 verbose rebuildBundles debug@2.2.0
+405 verbose rebuildBundles [ 'ms' ]
+406 info install debug@2.2.0
+407 info postinstall debug@2.2.0
+408 verbose about to build /home/ubuntu/workspace/server/node_modules/method-override
+409 info build /home/ubuntu/workspace/server/node_modules/method-override
+410 verbose linkStuff [ false,
+410 verbose linkStuff   false,
+410 verbose linkStuff   false,
+410 verbose linkStuff   '/home/ubuntu/workspace/server/node_modules' ]
+411 info linkStuff method-override@2.3.5
+412 verbose linkBins method-override@2.3.5
+413 verbose linkMans method-override@2.3.5
+414 verbose rebuildBundles method-override@2.3.5
+415 verbose rebuildBundles [ 'debug', 'methods', 'parseurl', 'vary' ]
+416 info install method-override@2.3.5
+417 info postinstall method-override@2.3.5
+418 error peerinvalid The package mongoose does not satisfy its siblings' peerDependencies requirements!
+418 error peerinvalid Peer mongodb-autoincrement@1.0.0 wants mongoose@*
+418 error peerinvalid Peer mongoose-auto-increment@4.0.0 wants mongoose@~4.0.0
+419 error System Linux 3.14.13-c9
+420 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "method-override" "--save"
+421 error cwd /home/ubuntu/workspace/server
+422 error node -v v0.10.35
+423 error npm -v 1.4.28
+424 error code EPEERINVALID
+425 verbose exit [ 1, true ]
