@@ -12,6 +12,6 @@ require('./config/libs')(app);
 
 require('./app/routes/index')(app);
 
-var server = app.listen(app.get('port'), function() {
+var server = app.listen(process.env.PORT || app.get('port'), function() {
   console.log('Express server listening on port ' + server.address().port);
 });
